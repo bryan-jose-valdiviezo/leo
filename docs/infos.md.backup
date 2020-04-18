@@ -1,0 +1,21 @@
+## <span style="text-align: center; font-size: 30px;"> Documentation TP final d'applications natives</span>
+
+###### Simon Roy, Sébastien Varmandele <br> Philippe Joubarne, Bryan Valdiviezo <br><br> Depuis le : 17/04/2020 <br> Mise à jours le : 17/04/2020 <br>
+
+## Table des matières
+- [Schémas](#schema)
+    - [Schéma de Classes](#classes)
+- [Informations complémentaires](#infos)
+	- [Mockup](#mockup)
+
+
+
+## <a id="schema">Schéma</a>
+### <a id="classes">Schéma uml</a>
+![classes](./images/classes.jpeg "Schéma de classes")
+
+## <a id="infos">Informations complémentaires</a>
+Lorsqu'un professeur créer un groupe, il créer à la fois l'horaire du cours et il entre le numéro de DA de chacun des élèves du groupe, ainsi puisque l'élève doit entrer sont numéro de DA pour s'inscrire, il sera automatiquement lié aux cours auxquels il aura été lié. 	
+
+### <a id="mockup">Mockup</a>
+https://www.figma.com/proto/BGIqnRm1iHfgFBfhtITScm/LEO-APP?node-id=19%3A173&scaling=scale-down
