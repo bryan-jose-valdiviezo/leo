@@ -17,5 +17,6 @@
 ## <a id="infos">Informations complémentaires</a>
 Lorsqu'un professeur créer un groupe, il créer à la fois l'horaire du cours et il entre le numéro de DA de chacun des élèves du groupe, ainsi puisque l'élève doit entrer sont numéro de DA pour s'inscrire, il sera automatiquement lié aux cours auxquels il aura été lié. 	
 
+
 ### <a id="mockup">Mockup</a>
 https://www.figma.com/proto/BGIqnRm1iHfgFBfhtITScm/LEO-APP?node-id=19%3A173&scaling=scale-down
