@@ -1,0 +1,54 @@
+##### Liaisons aux cours
+
+Lorsqu'un professeur créer un groupe, il créer à la fois l'horaire du cours et il entre le numéro de DA de chacun des élèves du groupe, ainsi puisque l'élève doit entrer sont numéro de DA pour s'inscrire, il sera automatiquement lié aux cours auxquels il aura été lié. 
+
+---
+
+##### Prise des présence
+  
+Quand on prend les présences on peut choisir l'option "aide mémoire" qui cacherait les informations de l'étudiant sauf sa photo de profil. L'enseignant doit, donc, essayer de deviner le nom de l'élève à partir de son visage uniquement. Si l'enseignant n'y arrive pas elle peut simplement cliquer sur le profil pour les consulter.
+
+Pendant la prise de présences, l'enseignant peut en tout temps accéder aux informations supplémentaires de l'élèves, en appuyant sur la carte de l'élève. Ça ouvrira une fenêtre superposée contenant le reste des informations de l'élève sans quitter l'activité des présences.
+
+Pour prendre les présences, l'enseignant peut glisser la carte de l'étudiant affichée vers la gauche pour le marquer `absent` et vers la droite pour le marquer `présent`. S'il n'est pas à l'aise avec cette méthode il peut aussi cliquer sur les boutons `absent` et `présent` qui se situe haut bas de la page.
+
+--
+##### Personnalisation de l'app
+
+Si un utilisateur veut personnaliser la couleur principale de l'application il doit se rendre dans la sections `paramètres` qui se trouve dans le menu déroulant. À partir des paramètre il aura accès aux choix de couleurs principales disponible . 
+
+| Couleur | Code    |
+|:-------:|:-------:|
+| Défaut  | <p style="color: #D1495B">#D1495B</p> |
+| Jaune   | <p style="color: #EDAE49">#EDAE49</p> |
+| Bleu    | <p style="color: #003D5B">#003D5B</p> |
+| Vert    | <p style="color: #00798C">#00798C</p> |
+| Orange  | <p style="color: #FF6700">#FF6700</p> |
+| Rose    | <p style="color: #9D6A98">#9D6A98</p> | 
+| Sombre  | <p style="color: #121619">#121619</p> |
+
+<p style="color: #121619">#121619</p>
+
+---
+##### Groupe de travail pour un projet
+
+Le prof devrait avoir la possibilité de générer des groupes de travail pour différant projet.
+Il devrait avoir la possibilité de générer la liste des élèves aléatoirement ou de les choisir lui même.
+
+Pour ce faire l'enseignant doit être en mesure de créer des projets contenant des groupes de travail. Ces groupe de travail contiendrait des listes d'étudiant déterminé par l'enseignant.
+
+---
+##### Gestion des groupes
+
+Si on glisse un groupe vers la gauche ou la droite ça enclenche la prise des présences du groupe. Cela créer un séance avec la date actuel et affichera chaque étudiant un par un. Si on clique sur le groupe, on accède à la liste des séances du groupe. Quand un élèves est mis absent ...
+
+###### Option 1
+L'étudiant a automatiquement le maximum d'heure d'absence du groupe (déterminé avec l'horaire) S'il était en retard le prof devra changer manuellement
+
+###### Option 2 
+L'enseignant doit entrer le nombre d'heure d'absence qu'il veut et peut le changer plus tard
+
+###### Option 3
+L'étudiant a automatiquement une heure d'absence et le professeur doit reprendre les présences chaque heure ou il doit modifier le nombre d'heure d'absence pour cet étudiant. 
+
+---
