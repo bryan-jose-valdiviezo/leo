@@ -7,7 +7,7 @@ package dti.g25.leo.domaine.entite;
  @version 1
  */
 
-public class Utilisateur {
+public class  Utilisateur {
 
     protected int id;
     protected String prenom;
