@@ -12,7 +12,7 @@ public class Groupe {
         this.no = no;
         this.horaires = horaires;
         this.seances = seances;
-        this. membres = membres;
+        this.membres = membres;
     }
 
     //==================================== GETTERS ===============================================
@@ -50,4 +50,9 @@ public class Groupe {
     public void setMembres(ArrayList<Utilisateur> membres) {
         this.membres = membres;
     }
+
+    public void addSeances (Seance uneSeance){
+        this.seances.add(uneSeance);
+    }
+
 }

@@ -50,4 +50,8 @@ public class Cours {
     public void setGroupes(ArrayList<Groupe> groupes) {
         this.groupes = groupes;
     }
+
+    public void addGroupe(Groupe unGroupe){
+        this.groupes.add(unGroupe);
+    }
 }
