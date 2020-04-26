@@ -6,7 +6,6 @@ import androidx.annotation.RequiresApi;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 import dti.g25.leo.domaine.entite.EtatSeance;
@@ -17,7 +16,7 @@ import dti.g25.leo.domaine.entite.Utilisateur;
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class MockDataCoursGroupe {
 
-    private static final List<CoursGroupe> listCoursGroupes = new LinkedList<>();
+    private static final List<CoursGroupe> listCoursGroupes = new ArrayList<>();
 
     static {
 
@@ -61,7 +60,7 @@ public class MockDataCoursGroupe {
         Seance seance4 =  new Seance (LocalDateTime.of(2020, 2, 2, 10, 0), (ArrayList<Utilisateur>) personnesPresentes4, EtatSeance.TENUE);
         Seance seance5 =  new Seance (LocalDateTime.of(2020, 2, 5, 10, 0), (ArrayList<Utilisateur>) personnesPresentes4, EtatSeance.TENUE);
         Seance seance6 =  new Seance (LocalDateTime.of(2020, 2, 6, 10, 0), (ArrayList<Utilisateur>) personnesPresentes5, EtatSeance.TENUE);
-        Seance seance7 =  new Seance (LocalDateTime.of(2020, 2, 7, 10, 0), (ArrayList<Utilisateur>) personnesPresentes6, EtatSeance.TENUE);
+        Seance seance7 =  new Seance (LocalDateTime.of(2020, 2, 7, 10, 0), (ArrayList<Utilisateur>) personnesPresentes6, EtatSeance.ANNULEE);
 
         ArrayList <Seance> seances420G04RO1 = new ArrayList<>();
         ArrayList <Seance> seances420G04RO2 = new ArrayList<>();
@@ -88,8 +87,8 @@ public class MockDataCoursGroupe {
 
     }
 
-    public static LinkedList<CoursGroupe> getCoursGroupes(){
-        return (LinkedList<CoursGroupe>) listCoursGroupes;
+    static ArrayList<CoursGroupe> getCoursGroupes(){
+        return (ArrayList<CoursGroupe>) listCoursGroupes;
     }
 
 

@@ -16,7 +16,7 @@ import dti.g25.leo.domaine.entite.Utilisateur;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class MockDataSeance {
-    private static final List<Seance> seances = new LinkedList<>();
+    private static final List<Seance> seances = new ArrayList<>();
 
     static {
 
@@ -60,7 +60,7 @@ public class MockDataSeance {
         Seance seance4 =  new Seance (LocalDateTime.of(2020, 2, 2, 10, 0), (ArrayList<Utilisateur>) personnesPresentes4, EtatSeance.TENUE);
         Seance seance5 =  new Seance (LocalDateTime.of(2020, 2, 5, 10, 0), (ArrayList<Utilisateur>) personnesPresentes4, EtatSeance.TENUE);
         Seance seance6 =  new Seance (LocalDateTime.of(2020, 2, 6, 10, 0), (ArrayList<Utilisateur>) personnesPresentes5, EtatSeance.TENUE);
-        Seance seance7 =  new Seance (LocalDateTime.of(2020, 2, 7, 10, 0), (ArrayList<Utilisateur>) personnesPresentes6, EtatSeance.TENUE);
+        Seance seance7 =  new Seance (LocalDateTime.of(2020, 2, 7, 10, 0), (ArrayList<Utilisateur>) personnesPresentes6, EtatSeance.ANNULEE);
 
         seances.add(seance1);
         seances.add(seance2);
@@ -71,8 +71,8 @@ public class MockDataSeance {
         seances.add(seance7);
     }
 
-    public static LinkedList<Seance> getSeances(){
-        return (LinkedList<Seance>) seances;
+    public static ArrayList<Seance> getSeances(){
+        return (ArrayList<Seance>) seances;
     }
 
     public static Seance getSeanceParDate(LocalDateTime dateTime){
