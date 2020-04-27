@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import dti.g25.leo.R;
 
-public class ChoixUtilisateurs extends AppCompatActivity {
+public class ActiviteChoixUtilisateurs extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.laysout.activity_choix_utilisateurs);
+        setContentView(R.layout.activity_choix_utilisateurs);
     }
 }
