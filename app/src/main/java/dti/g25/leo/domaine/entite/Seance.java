@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 
 /**
+ *  test
  * Contient les methodes et les Attributs pour une scéance
  * @author Philippe
  * @since 23/04/2020
