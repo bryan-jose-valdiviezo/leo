@@ -1,14 +1,16 @@
-package dti.g25.leo;
+package dti.g25.leo.ui.activite;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import dti.g25.leo.R;
+
+public class ChoixUtilisateurs extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.laysout.activity_choix_utilisateurs);
     }
 }
