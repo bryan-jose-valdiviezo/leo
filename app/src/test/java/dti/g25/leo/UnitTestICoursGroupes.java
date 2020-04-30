@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import dti.g25.leo.domaine.entite.Cours;
 import dti.g25.leo.domaine.entite.Groupe;
 import dti.g25.leo.domaine.entite.Seance;
-import dti.g25.leo.presentation.modele.mockData.ICoursGroupes;
-import dti.g25.leo.presentation.modele.mockData.MockDataSeance;
+import dti.g25.leo.domaine.interacteur.ICoursGroupes;
 
 import static org.junit.Assert.assertEquals;
 

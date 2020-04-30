@@ -1,4 +1,4 @@
-package dti.g25.leo.presentation.modele.mockData;
+package dti.g25.leo.domaine.interacteur;
 
 import android.os.Build;
 
@@ -11,6 +11,8 @@ import dti.g25.leo.domaine.entite.Groupe;
 import dti.g25.leo.domaine.entite.Horaire;
 import dti.g25.leo.domaine.entite.Seance;
 import dti.g25.leo.domaine.entite.Utilisateur;
+import dti.g25.leo.presentation.modele.mockData.CoursGroupe;
+import dti.g25.leo.presentation.modele.mockData.MockDataCoursGroupe;
 
 @RequiresApi(api = Build.VERSION_CODES.O)
 public class ICoursGroupes {

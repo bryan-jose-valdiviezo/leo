@@ -87,7 +87,7 @@ public class MockDataCoursGroupe {
 
     }
 
-    static ArrayList<CoursGroupe> getCoursGroupes(){
+    public static ArrayList<CoursGroupe> getCoursGroupes(){
         return (ArrayList<CoursGroupe>) listCoursGroupes;
     }
 
