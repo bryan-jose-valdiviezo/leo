@@ -15,8 +15,8 @@ public class ActiviteChoixUtilisateurs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choix_utilisateurs);
 
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.add(R.id.layout_authentification, new VueBase());
-        ft.commit();
+//        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//        ft.add(R.id.layout_authentification, new VueBase());
+//        ft.commit();
     }
 }
